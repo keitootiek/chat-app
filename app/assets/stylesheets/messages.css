@@ -1,0 +1,32 @@
+.wrapper{
+  display:flex
+}
+.main_bar{
+width:calc(100vw-300px);
+height: 100vh;
+background-color: #FFFFFF;
+}
+.side_bar{
+width: 300px;
+height: 100vh;
+background-color: #253141;
+}
+.side-header{
+height: 100px;
+}
+.side-body{
+background-color: #2F3E51;
+height: calc(100vh-100px);
+}
+.main-header{
+  background-color: #FFFFFF;
+  height: 100px;
+}
+.main-body{
+background-color: #FAFAFA;
+height:calc(100vh-100px-90px);
+}
+.main-bottom{
+height: 90px;
+background-color:#DDDDDD;
+}
