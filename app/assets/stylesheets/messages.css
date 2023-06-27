@@ -1,0 +1,161 @@
+.wrapper{
+  display:flex
+}
+/*******************
+メインバー（rooms）
+*******************/
+.main-bar{
+width:calc(100vw - 300px);
+background-color: #FFFFFF;
+}
+.main-header{
+  background-color: #FFFFFF;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.chat-room-title{
+  color: #333;
+  font-size: 24px;
+  margin-top: 36px;
+}
+.chat-room-now{padding-left: 40px;}
+  
+.chat-shutbtn{
+  margin-top: 40px;
+  padding-right: 40px;
+}
+.chat-shutbtn a{
+  text-decoration: none;
+  border: 1px solid darkred;
+color: darkred;
+padding: 20px;
+
+text-decoration: none;
+}
+.main-body{
+background-color: #FAFAFA;
+height:calc(100vh - 100px - 90px);
+padding: 46px 0px 0px 0px;
+overflow: scroll;
+}
+.message {
+  margin: 10px 0 0 20px;
+}
+
+.upper-message{
+  display: flex;
+
+}
+
+.message-user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.main-bottom{
+height: 90px;
+background-color:#DDDDDD;
+padding: 20px 0px;
+display: flex;
+}
+.form-input {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+/*********************
+サイドバー（message）
+*********************/
+.side-bar{
+width: 300px;
+height: 100vh;
+background-color: #2F3E51;
+}
+.side-header{
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-header-username a{
+  font-size: 16px;
+  color: #FAFAFA;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.side-header-newchat a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+.side-body{
+  background-color: #2F3E51;
+height: calc(100vh-100px);
+padding: 0 20px;
+
+
+}
+.chat-rooms{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll
+}
+.chat-room{
+padding: 20px 0 40px;
+}
+.chat-room a{
+  color: white;
+  text-decoration: none;
+
+}
